@@ -10,10 +10,15 @@ public class Main {
         post.surname = "Иванов";
         post.subscription = true;
 
-
-        FormDate birthday = new FormDate();
-        birthday.day = 13;
-        birthday.month = 6;
-        birthday.year = 1999;
+        System.out.println(post.name);
+    //}
+        //public static void main(String[] args) {
+            FormDate birthday = new FormDate();
+            birthday.day = 13;
+            birthday.month = 6;
+            birthday.year = 1999;
+        System.out.println(birthday.day);
     }
+
+
 }
